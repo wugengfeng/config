@@ -12,7 +12,7 @@ spring:
   #数据采集 1为100%，生产环境看需求配置
   sleuth:
     sampler:
-      percentage: 1.0
+      percentage: 0.01
 eureka:
   client:
     serviceUrl:
