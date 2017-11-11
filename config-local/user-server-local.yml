@@ -6,7 +6,10 @@ eureka:
       enabled: true
     serviceUrl:
       defaultZone: http://wugf:123456@localhost:8761/eureka
-      
+#数据采集 1为100%
+sleuth:
+  sampler:
+    percentage: 0.01     
 spring:
   datasource:
         url: jdbc:mysql://localhost:3306/wugf_user?useUnicode=true&characterEncoding=UTF-8
